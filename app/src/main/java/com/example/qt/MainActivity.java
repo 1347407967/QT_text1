@@ -15,11 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     private FrameLayout fl_body;
-    private ImageView iv_main;
-    private TextView tv_mian;
-    private RelativeLayout rl_main;
-    private ImageView iv_sq;
-    private TextView tv_sq;
+    private TextView tv_main;
+    private TextView tv_my;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,15 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
         fl_body = findViewById(R.id.fl_body);//界面
-        iv_main = findViewById(R.id.iv_main);//首页图片
-        //首页文字
-        tv_mian = findViewById(R.id.tv_main);
-        //首页rl
-        rl_main = findViewById(R.id.rl_main);
-        //社区图片
-        iv_sq = findViewById(R.id.iv_sq);
-        //社区文字
-        tv_sq = findViewById(R.id.tv_sq);
-        //1111
+        /*
+        * 文字*/
+        tv_main = findViewById(R.id.tv_main);
+        tv_my = findViewById(R.id.tv_my);
+
     }
 }
